@@ -5,11 +5,11 @@ var http = require('http');
 var PORTONE = 7000;
 var PORTTWO = 7500;
 
-// two functions to handle requests, one for each server
+// first of two functions that will handle requests (one for each server)
 function handleRequestOne(request, response) {
     response.end('You\'re a bonafide JavaScript Scholar.');
 }
-
+// second of two functions that will handle requests (one for each server)
 function handleRequestTwo(request, response) {
     response.end('Your coding skills need much improvement.');
 }
